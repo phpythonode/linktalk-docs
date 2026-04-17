@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: '语桥',
   tagline: '说中文，全球听 · 1.3秒极速同传 | 双通道独立输出 | 无需显卡 | 实时克隆你的音色',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-dark.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -61,7 +61,10 @@ const config: Config = {
       title: '语桥',
       logo: {
         alt: '语桥 Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo-128.png',
+        width: 32,
+        height: 32,
+        style: {width: '32px', height: '32px', objectFit: 'contain'},
       },
       items: [
         {

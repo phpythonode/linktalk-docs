@@ -49,9 +49,7 @@
   color: rgba(255, 255, 255, 0.9) !important;
 }
 
-[data-homepage='true'] .navbar__logo {
-  filter: brightness(0) invert(1);
-}
+/* 首页 navbar logo 保持原色（白色 logo 在深色 banner 上） */
 
 [data-homepage='true'] .navbar__toggle,
 [data-homepage='true'] .navbar__toggle svg {
@@ -64,4 +62,33 @@
 
 [data-homepage='true'] button[class*='toggleButton'] svg {
   fill: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* 防止图片走形 */
+.navbar__logo img {
+  object-fit: contain;
+  width: 32px;
+  height: 32px;
+}
+
+/* 浅色模式下 logo 反色，深色模式保持原样 */
+[data-theme='light'] .navbar__logo img {
+  filter: invert(1);
+}
+
+/* 首页 navbar 始终白色，覆盖浅色模式的反色 */
+[data-homepage='true'] .navbar__logo img {
+  filter: none;
+}
+
+/* 首页 navbar hover 在深色 banner 上可见 */
+[data-homepage='true'] .navbar__link:hover,
+[data-homepage='true'] .navbar__link--active {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-radius: 6px;
+}
+
+[data-homepage='true'] button[class*='toggleButton']:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-radius: 6px;
 }
