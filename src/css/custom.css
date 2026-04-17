@@ -67,8 +67,8 @@
 /* 防止图片走形 */
 .navbar__logo img {
   object-fit: contain;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
 }
 
 /* 浅色模式下 logo 反色，深色模式保持原样 */
@@ -91,4 +91,14 @@
 [data-homepage='true'] button[class*='toggleButton']:hover {
   background: rgba(255, 255, 255, 0.15) !important;
   border-radius: 6px;
+}
+
+/* navbar logo 和文字垂直居中 */
+.navbar__brand {
+  align-items: center;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
 }

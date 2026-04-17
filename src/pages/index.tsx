@@ -26,7 +26,7 @@ function HomepageHeader() {
           <span className={styles.badgeDot} />
           AI 驱动的实时同声传译
         </div>
-        
+
         <Heading as="h1" className={styles.heroTitle}>
           说中文，<span className={styles.heroTitleGradient}>全球听</span>
         </Heading>

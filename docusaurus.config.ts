@@ -62,9 +62,9 @@ const config: Config = {
       logo: {
         alt: '语桥 Logo',
         src: 'img/logo-128.png',
-        width: 32,
-        height: 32,
-        style: {width: '32px', height: '32px', objectFit: 'contain'},
+        width: 40,
+        height: 40,
+        style: {width: '40px', height: '40px', objectFit: 'contain'},
       },
       items: [
         {
