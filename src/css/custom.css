@@ -6,25 +6,62 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #2470cc;
+  --ifm-color-primary-dark: #1f63b8;
+  --ifm-color-primary-darker: #1d5eae;
+  --ifm-color-primary-darkest: #184e8f;
+  --ifm-color-primary-light: #2e7ddc;
+  --ifm-color-primary-lighter: #3383e0;
+  --ifm-color-primary-lightest: #4d96e8;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #5ba3ff;
+  --ifm-color-primary-dark: #4295ff;
+  --ifm-color-primary-darker: #358dff;
+  --ifm-color-primary-darkest: #0d75ff;
+  --ifm-color-primary-light: #74b1ff;
+  --ifm-color-primary-lighter: #81b9ff;
+  --ifm-color-primary-lightest: #a8ceff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* 让 footer 背景与页面背景一致 */
+.footer {
+  background-color: var(--ifm-background-color);
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+/* 首页 navbar 始终透明，融入 hero */
+[data-homepage='true'] .navbar {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* 浅色/深色模式下，首页 navbar 所有文字和图标强制白色 */
+[data-homepage='true'] .navbar__title,
+[data-homepage='true'] .navbar__link,
+[data-homepage='true'] .navbar__item,
+[data-homepage='true'] .navbar-sidebar__brand .navbar__title {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+[data-homepage='true'] .navbar__logo {
+  filter: brightness(0) invert(1);
+}
+
+[data-homepage='true'] .navbar__toggle,
+[data-homepage='true'] .navbar__toggle svg {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+[data-homepage='true'] button[class*='toggleButton'] {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+[data-homepage='true'] button[class*='toggleButton'] svg {
+  fill: rgba(255, 255, 255, 0.9) !important;
 }

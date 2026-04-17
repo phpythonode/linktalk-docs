@@ -74,7 +74,7 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
+      style: 'light',
       links: [],
       copyright: `Copyright © ${new Date().getFullYear()} 语桥. 保留所有权利。`,
     },
