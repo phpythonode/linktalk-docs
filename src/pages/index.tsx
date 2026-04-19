@@ -167,7 +167,7 @@ function Features() {
     { icon: '⚡', title: '极速响应', desc: '首音延迟仅 1.3 秒，接近真人同传水平' },
     { icon: '🎙️', title: '音色克隆', desc: '实时克隆你的音色，用你的声音说外语' },
     { icon: '🔄', title: '双通道输出', desc: '同时输出两路翻译，互不干扰' },
-    { icon: '💰', title: '成本极低', desc: '素材出海 4-5.5 元/小时，会议 8-11 元/场' },
+    { icon: '💰', title: '成本极低', desc: '对接官方 API，按实际用量计费，新用户享免费额度' },
     { icon: '🖥️', title: '无需显卡', desc: '纯 CPU 运行，普通电脑即可使用' },
     { icon: '🌐', title: '多语言支持', desc: '支持中英日韩法德西等 10+ 种语言' },
     { icon: '🔌', title: '灵活接入', desc: '支持 OBS、Zoom、腾讯会议等主流平台' },
@@ -183,7 +183,7 @@ function Features() {
             为什么选择语桥
           </Heading>
           <p className={styles.sectionSubtitle}>
-            专业级的实时翻译能力，亲民的价格，简单的操作
+            专业级的实时翻译能力，简单易用
           </p>
         </div>
         

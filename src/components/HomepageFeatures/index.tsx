@@ -16,7 +16,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         中文素材实时翻译，AI 自动配音输出，支持 10+ 语言。
-        双通道同时输出，成本仅需 <strong>4-5.5 元/小时</strong>，热点不再错过。
+        双通道同时输出，支持 10+ 语言，热点不再错过。
       </>
     ),
   },
@@ -36,7 +36,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         双通道实时互翻：通道 A 中→英，通道 B 英→中，同时进行互不干扰。
-        接入 Zoom / 腾讯会议 / OBS，单场成本约 <strong>8-11 元</strong>。
+        接入 Zoom / 腾讯会议 / OBS，支持双向实时互翻。
       </>
     ),
   },
