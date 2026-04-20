@@ -263,7 +263,6 @@ function Pricing() {
       unit: '/ 季',
       period: '每月仅 ¥76',
       save: '省 ¥36',
-      featured: true,
       features: [
         '全部核心功能',
         '双通道实时翻译',
@@ -278,6 +277,7 @@ function Pricing() {
       unit: '/ 年',
       period: '每月仅 ¥57',
       save: '省 ¥368',
+      featured: true,
       features: [
         '全部核心功能',
         '双通道实时翻译',
