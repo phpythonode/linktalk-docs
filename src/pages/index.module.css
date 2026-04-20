@@ -265,13 +265,13 @@
   font-weight: 600;
   text-decoration: none !important;
   transition: transform 0.2s, box-shadow 0.2s;
-  box-shadow: 0 4px 24px rgba(36, 112, 204, 0.4);
+  box-shadow: 0 2px 12px rgba(36, 112, 204, 0.3);
   width: fit-content;
 }
 
 .btnPrimary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 32px rgba(36, 112, 204, 0.6);
+  box-shadow: 0 4px 20px rgba(36, 112, 204, 0.45);
 }
 
 .btnSecondary {
@@ -943,13 +943,13 @@
   border: none;
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
-  box-shadow: 0 4px 24px rgba(7, 168, 78, 0.35);
+  box-shadow: 0 2px 12px rgba(7, 168, 78, 0.25);
   width: fit-content;
 }
 
 .btnContact:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 32px rgba(7, 168, 78, 0.55);
+  box-shadow: 0 4px 20px rgba(7, 168, 78, 0.4);
 }
 
 /* ===== Animations ===== */
