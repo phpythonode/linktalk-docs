@@ -2,6 +2,8 @@ import {useEffect} from 'react';
 import type {ReactNode} from 'react';
 import styles from './styles.module.css';
 
+const wechatImg = require('@site/static/img/wechat.png').default;
+
 interface ContactModalProps {
   isOpen: boolean;
   onClose: () => void;
@@ -39,7 +41,7 @@ export default function ContactModal({isOpen, onClose}: ContactModalProps): Reac
           <p className={styles.subtitle}>扫码添加微信，获取报价和购买方式</p>
         </div>
         <div className={styles.qrWrap}>
-          <img src="/img/wechat.png" alt="微信二维码" className={styles.qrCode} />
+          <img src={wechatImg} alt="微信二维码" className={styles.qrCode} />
         </div>
         <p className={styles.tip}>微信扫一扫 · 添加好友咨询</p>
       </div>
