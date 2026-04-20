@@ -1,4 +1,4 @@
-import {useEffect} from 'react';
+import {useEffect, useState} from 'react';
 import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
@@ -6,6 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import HeroBg from '@site/src/components/HeroBg';
+import ContactModal from '@site/src/components/ContactModal';
 import styles from './index.module.css';
 
 function HomepageHeader() {
@@ -239,81 +240,98 @@ function HowItWorks() {
 }
 
 function Pricing() {
+  const [contactOpen, setContactOpen] = useState(false);
+
   const plans = [
     {
-      scenario: '素材出海',
-      title: '内容创作',
-      price: null,
-      unit: null,
+      label: '月卡',
+      price: '88',
+      unit: '/ 月',
+      period: '按月订阅',
+      save: null,
       features: [
-        '中文素材实时翻译',
-        'AI 自动配音输出',
-        '支持 10+ 语言',
-        '双通道同时输出',
-        '适合短视频、Vlog'
+        '全部核心功能',
+        '双通道实时翻译',
+        '10+ 语言支持',
+        '音色克隆',
+        '7×24 在线服务',
       ]
     },
     {
-      scenario: '国际会议',
-      title: '商务会议',
-      price: null,
-      unit: null,
+      label: '季卡',
+      price: '228',
+      unit: '/ 季',
+      period: '每月仅 ¥76',
+      save: '省 ¥36',
       featured: true,
       features: [
-        '双通道实时互翻',
-        '中英双向翻译',
-        '接入多种会议平台',
-        '专业级音质',
-        '适合远程会议'
+        '全部核心功能',
+        '双通道实时翻译',
+        '10+ 语言支持',
+        '音色克隆',
+        '7×24 在线服务',
       ]
     },
     {
-      scenario: '跨境直播',
-      title: '直播带货',
-      price: null,
-      unit: null,
+      label: '年卡',
+      price: '688',
+      unit: '/ 年',
+      period: '每月仅 ¥57',
+      save: '省 ¥368',
       features: [
-        '1.3 秒首音延迟',
-        '实时音色克隆',
-        '7×24 小时在线',
-        '支持主流直播平台',
-        '适合电商、教育'
+        '全部核心功能',
+        '双通道实时翻译',
+        '10+ 语言支持',
+        '音色克隆',
+        '7×24 在线服务',
       ]
     }
   ];
-  
+
   return (
     <section className={clsx(styles.section, styles.sectionAlt)}>
       <div className="container">
         <div className={styles.sectionCenter}>
-          <div className={styles.sectionLabel}>适用场景</div>
+          <div className={styles.sectionLabel}>价格</div>
           <Heading as="h2" className={styles.sectionTitle}>
-            按需选择，灵活使用
+            简单透明的定价
           </Heading>
           <p className={styles.sectionSubtitle}>
-            对接火山引擎官方 API，按实际用量计费，新用户赠送 100 万 token
+            买断时长，不限用量，越长越划算
           </p>
         </div>
-        
+
         <div className={styles.pricingGrid}>
           {plans.map((plan, idx) => (
             <div key={idx} className={clsx(styles.pricingCard, plan.featured && styles.pricingCardFeatured)}>
-              <div className={styles.pricingScenario}>{plan.scenario}</div>
-              <h3 className={styles.pricingTitle}>{plan.title}</h3>
+              {plan.save && <div className={styles.pricingBadge}>{plan.save}</div>}
+              <div className={styles.pricingScenario}>{plan.label}</div>
+              <div className={styles.pricingPrice}>
+                <span className={styles.pricingCurrency}>¥</span>
+                <span className={styles.pricingAmount}>{plan.price}</span>
+                <span className={styles.pricingUnit}>{plan.unit}</span>
+              </div>
+              <div className={styles.pricingPeriod}>{plan.period}</div>
               <ul className={styles.pricingList}>
                 {plan.features.map((feature, i) => (
                   <li key={i}>{feature}</li>
                 ))}
               </ul>
+              <button className={clsx(styles.pricingBtn, plan.featured && styles.pricingBtnFeatured)} onClick={() => setContactOpen(true)}>
+                立即购买
+              </button>
             </div>
           ))}
         </div>
       </div>
+      <ContactModal isOpen={contactOpen} onClose={() => setContactOpen(false)} />
     </section>
   );
 }
 
 function CTA() {
+  const [contactOpen, setContactOpen] = useState(false);
+
   return (
     <section className={styles.ctaSection}>
       <div className={styles.ctaGlow} />
@@ -328,11 +346,15 @@ function CTA() {
           <Link className={styles.btnPrimary} to="/docs">
             立即开始
           </Link>
+          <button className={styles.btnContact} onClick={() => setContactOpen(true)}>
+            💬 联系购买
+          </button>
           <Link className={styles.btnSecondary} to="/docs/faq">
             常见问题
           </Link>
         </div>
       </div>
+      <ContactModal isOpen={contactOpen} onClose={() => setContactOpen(false)} />
     </section>
   );
 }

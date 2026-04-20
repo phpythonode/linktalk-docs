@@ -1,0 +1,6 @@
+services:
+  admin:
+    image: nrt.vultrcr.com/redpacket/linktalk-docs:latest
+    restart: unless-stopped
+    ports:
+      - "9082:80"

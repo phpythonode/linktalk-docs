@@ -15,10 +15,8 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/linktalk-docs/',
+  url: 'https://linktalk.top',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -73,7 +71,10 @@ const config: Config = {
           position: 'left',
           label: '使用文档',
         },
-
+        {
+          type: 'custom-contact',
+          position: 'right',
+        },
       ],
     },
     footer: {
