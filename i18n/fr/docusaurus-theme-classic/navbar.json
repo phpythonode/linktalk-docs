@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "LinkTalk",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Logo LinkTalk",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.使用文档": {
+    "message": "Documentation",
+    "description": "Navbar item with label 使用文档"
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "Die Seite ist abgestürzt.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Zurück nach oben scrollen",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archiv",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archiv",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Navigation der Blog-Listenseite",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Neuere Einträge",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Ältere Einträge",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blog Post Seiten Navigation",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Neuer Post",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Älterer Post",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "heller Modus",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "dunkler Modus",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Umschalten zwischen dunkler und heller Ansicht (momentan {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Alle Tags anzeigen",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Dokumentation Seiten",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Zurück",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Weiter",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Ein doc getaggt|{count} docs getaggt",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} mit \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Das ist die unveröffentlichte Dokumentation für {siteTitle} {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Das ist die Dokumentation für {siteTitle} {versionLabel} und wird nicht weiter gewartet.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Für die aktuellste Dokumentation bitte auf {latestVersionLink} ({versionLabel}) gehen.",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "letzte Version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.common.editThisPage": {
+    "message": "Diese Seite bearbeiten",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direkter Link zur {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " am {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " von {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Letztes Update{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versionen",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "Seite nicht gefunden",
+    "description": "The title of the 404 page"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "vorsicht",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "gefahr",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "hinweis",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tipp",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "warnung",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Schließen",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigation der letzten Beiträge im Blog",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Sprachen",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Auf dieser Seite",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.NotFound.p1": {
+    "message": "Wir konnten nicht finden, wonach Sie gesucht haben.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Bitte kontaktieren Sie den Besitzer der Seite, die Sie mit der ursprünglichen URL verlinkt hat, und teilen Sie ihm mit, dass der Link nicht mehr funktioniert.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Eine Minute Lesezeit|{readingTime} Minuten Lesezeit",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Mehr lesen",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Mehr lesen über {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Kopieren",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Kopiert",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "In die Zwischenablage kopieren",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Toggle word wrap",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Seitenleiste einklappen",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Seitenleiste einklappen",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Zurück zum Hauptmenü",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Seitenleiste ausklappen",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Seitenleiste ausklappen",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Ein Post|{count} Posts",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} getaggt mit \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View All Authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 Eintrag|{count} Einträge",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Nochmal versuchen",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Zum Hauptinhalt springen",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  },
+  "homepage.hero.badge": {
+    "message": "KI-gestützte Echtzeit-Simultandolmetschung"
+  },
+  "homepage.hero.title.prefix": {
+    "message": "Sprich Chinesisch, "
+  },
+  "homepage.hero.title.highlight": {
+    "message": "weltweit gehört"
+  },
+  "homepage.hero.subtitle": {
+    "message": "1,3 s Latenz · Dual-Channel-Ausgabe · Kein GPU · Echtzeit-Stimmklonen"
+  },
+  "homepage.hero.subtitle2": {
+    "message": "Sprachbarrieren im Streaming und Geschäft überwinden"
+  },
+  "homepage.stat.latency": {
+    "message": "Erstton-Latenz"
+  },
+  "homepage.stat.languages": {
+    "message": "Sprachen"
+  },
+  "homepage.stat.uptime": {
+    "message": "Immer online"
+  },
+  "homepage.hero.cta.start": {
+    "message": "Jetzt starten →"
+  },
+  "homepage.hero.cta.scenarios": {
+    "message": "Anwendungsfälle ansehen"
+  },
+  "homepage.scroll": {
+    "message": "Scrollen"
+  },
+  "platform.tencentMeeting": {
+    "message": "Tencent Meeting"
+  },
+  "platform.streamingCompanion": {
+    "message": "Streaming-Begleiter"
+  },
+  "platform.feishu": {
+    "message": "Feishu Meeting"
+  },
+  "homepage.metrics.tagline": {
+    "message": "Nahtlose Integration in Ihren Workflow"
+  },
+  "homepage.scenario.content.title": {
+    "message": "Content-Export"
+  },
+  "homepage.scenario.content.desc": {
+    "message": "Echtzeit-Übersetzung chinesischer Inhalte mit KI-Synchronisation, unterstützt 10+ Sprachen. Simultane Dual-Channel-Ausgabe — verpassen Sie keinen Trend."
+  },
+  "homepage.scenario.content.tag1": {
+    "message": "Niedrige Kosten"
+  },
+  "homepage.scenario.content.tag2": {
+    "message": "Hohe Effizienz"
+  },
+  "homepage.scenario.content.tag3": {
+    "message": "Mehrsprachig"
+  },
+  "homepage.scenario.meeting.title": {
+    "message": "Internationale Meetings"
+  },
+  "homepage.scenario.meeting.desc": {
+    "message": "Bidirektionale Echtzeit-Übersetzung: Kanal A Chinesisch→Englisch, Kanal B Englisch→Chinesisch, gleichzeitig ohne Störungen. Kompatibel mit Zoom / Tencent Meeting / OBS."
+  },
+  "homepage.scenario.meeting.tag1": {
+    "message": "Bidirektional"
+  },
+  "homepage.scenario.meeting.tag2": {
+    "message": "Multiplattform"
+  },
+  "homepage.scenario.meeting.tag3": {
+    "message": "Professionell"
+  },
+  "homepage.scenario.live.title": {
+    "message": "Grenzüberschreitendes Streaming"
+  },
+  "homepage.scenario.live.desc": {
+    "message": "Sie sprechen Chinesisch, Ihr Publikum hört seine Muttersprache in Echtzeit. Erstton-Latenz nur 1,3 s. Stimmklonen lässt Sie Fremdsprachen mit Ihrer eigenen Stimme sprechen."
+  },
+  "homepage.scenario.live.tag1": {
+    "message": "Niedrige Latenz"
+  },
+  "homepage.scenario.live.tag2": {
+    "message": "Stimmklonen"
+  },
+  "homepage.scenario.live.tag3": {
+    "message": "7×24 online"
+  },
+  "homepage.scenarios.label": {
+    "message": "Anwendungsfälle"
+  },
+  "homepage.scenarios.title": {
+    "message": "Ein Tool, drei Szenarien"
+  },
+  "homepage.scenarios.subtitle": {
+    "message": "Content-Erstellung, Live-Commerce oder Geschäftsmeetings — LinkTalk liefert professionelle Echtzeit-Übersetzung"
+  },
+  "homepage.feature.speed.title": {
+    "message": "Ultraschnelle Reaktion"
+  },
+  "homepage.feature.speed.desc": {
+    "message": "Erstton-Latenz nur 1,3 s, nahe am Niveau eines menschlichen Dolmetschers"
+  },
+  "homepage.feature.voice.title": {
+    "message": "Stimmklonen"
+  },
+  "homepage.feature.voice.desc": {
+    "message": "Echtzeit-Stimmklonen — sprechen Sie Fremdsprachen mit Ihrer eigenen Stimme"
+  },
+  "homepage.feature.dual.title": {
+    "message": "Dual-Channel-Ausgabe"
+  },
+  "homepage.feature.dual.desc": {
+    "message": "Zwei unabhängige Übersetzungsströme laufen gleichzeitig ohne Störungen"
+  },
+  "homepage.feature.cost.title": {
+    "message": "Ultraniedriger Preis"
+  },
+  "homepage.feature.cost.desc": {
+    "message": "Offizielle API-Integration, nutzungsbasierte Abrechnung, kostenlose Credits für neue Nutzer"
+  },
+  "homepage.feature.nogpu.title": {
+    "message": "Kein GPU erforderlich"
+  },
+  "homepage.feature.nogpu.desc": {
+    "message": "Reine CPU-Verarbeitung — läuft auf jedem normalen Computer"
+  },
+  "homepage.feature.multilang.title": {
+    "message": "Mehrsprachige Unterstützung"
+  },
+  "homepage.feature.multilang.desc": {
+    "message": "Unterstützt Chinesisch, Englisch, Japanisch, Französisch, Deutsch, Spanisch und 10+ weitere Sprachen"
+  },
+  "homepage.feature.integrate.title": {
+    "message": "Flexible Integration"
+  },
+  "homepage.feature.integrate.desc": {
+    "message": "Kompatibel mit OBS, Zoom, Tencent Meeting und anderen wichtigen Plattformen"
+  },
+  "homepage.feature.stable.title": {
+    "message": "Stabil & zuverlässig"
+  },
+  "homepage.feature.stable.desc": {
+    "message": "7×24 h stabiler Betrieb, 99,9% Verfügbarkeit"
+  },
+  "homepage.features.label": {
+    "message": "Hauptvorteile"
+  },
+  "homepage.features.title": {
+    "message": "Warum LinkTalk wählen"
+  },
+  "homepage.features.subtitle": {
+    "message": "Professionelle Echtzeit-Übersetzung, einfach zu bedienen"
+  },
+  "homepage.step1.title": {
+    "message": "Herunterladen & installieren"
+  },
+  "homepage.step1.desc": {
+    "message": "Ein-Klick-Installation, keine Umgebungseinrichtung nötig"
+  },
+  "homepage.step2.title": {
+    "message": "Audio konfigurieren"
+  },
+  "homepage.step2.desc": {
+    "message": "Virtuelle Audiogeräte einrichten"
+  },
+  "homepage.step3.title": {
+    "message": "Sprachen auswählen"
+  },
+  "homepage.step3.desc": {
+    "message": "Quell- und Zielsprache auswählen"
+  },
+  "homepage.step4.title": {
+    "message": "Nutzung starten"
+  },
+  "homepage.step4.desc": {
+    "message": "Echtzeit-Übersetzung, sofort wirksam"
+  },
+  "homepage.howItWorks.label": {
+    "message": "So funktioniert es"
+  },
+  "homepage.howItWorks.title": {
+    "message": "Vier Schritte zum Start"
+  },
+  "homepage.howItWorks.subtitle": {
+    "message": "Einfache Einrichtung, professioneller Echtzeit-Übersetzungsservice"
+  },
+  "homepage.pricing.monthly.label": {
+    "message": "Monatlich"
+  },
+  "homepage.pricing.monthly.unit": {
+    "message": "/ Monat"
+  },
+  "homepage.pricing.monthly.period": {
+    "message": "Monatliche Abrechnung"
+  },
+  "homepage.pricing.quarterly.label": {
+    "message": "Vierteljährlich"
+  },
+  "homepage.pricing.quarterly.unit": {
+    "message": "/ Quartal"
+  },
+  "homepage.pricing.quarterly.period": {
+    "message": "Nur ¥76/Monat"
+  },
+  "homepage.pricing.quarterly.save": {
+    "message": "¥36 sparen"
+  },
+  "homepage.pricing.yearly.label": {
+    "message": "Jährlich"
+  },
+  "homepage.pricing.yearly.unit": {
+    "message": "/ Jahr"
+  },
+  "homepage.pricing.yearly.period": {
+    "message": "Nur ¥57/Monat"
+  },
+  "homepage.pricing.yearly.save": {
+    "message": "¥368 sparen"
+  },
+  "homepage.pricing.feature1": {
+    "message": "Alle Kernfunktionen"
+  },
+  "homepage.pricing.feature2": {
+    "message": "Dual-Channel-Echtzeit-Übersetzung"
+  },
+  "homepage.pricing.feature3": {
+    "message": "Unterstützung für 10+ Sprachen"
+  },
+  "homepage.pricing.feature4": {
+    "message": "Stimmklonen"
+  },
+  "homepage.pricing.feature5": {
+    "message": "7×24 Online-Service"
+  },
+  "homepage.pricing.label": {
+    "message": "Preise"
+  },
+  "homepage.pricing.title": {
+    "message": "Einfache, transparente Preise"
+  },
+  "homepage.pricing.subtitle": {
+    "message": "Feste Laufzeit, unbegrenzte Nutzung — je länger, desto mehr Wert"
+  },
+  "homepage.pricing.buyNow": {
+    "message": "Jetzt kaufen"
+  },
+  "homepage.cta.title": {
+    "message": "Bereit, die Sprachbarriere zu durchbrechen?"
+  },
+  "homepage.cta.subtitle": {
+    "message": "Starten Sie jetzt mit LinkTalk und erreichen Sie ein globales Publikum"
+  },
+  "homepage.cta.start": {
+    "message": "Jetzt starten"
+  },
+  "homepage.cta.contact": {
+    "message": "Kontakt zum Kauf"
+  },
+  "homepage.cta.faq": {
+    "message": "Häufige Fragen"
+  },
+  "homepage.title": {
+    "message": "Sprich Chinesisch, weltweit gehört"
+  },
+  "homepage.description": {
+    "message": "LinkTalk Simultandolmetschung - 1,3 s Latenz, Dual-Channel-Ausgabe, Echtzeit-Stimmklonen"
+  },
+  "navbar.contact.button": {
+    "message": "Kontakt zum Kauf"
+  },
+  "contact.modal.title": {
+    "message": "Kontakt zum Kauf"
+  },
+  "contact.modal.subtitle": {
+    "message": "QR-Code scannen, um WeChat hinzuzufügen und Preisinformationen zu erhalten"
+  },
+  "contact.modal.tip": {
+    "message": "Mit WeChat scannen · Als Freund hinzufügen und anfragen"
+  }
+}

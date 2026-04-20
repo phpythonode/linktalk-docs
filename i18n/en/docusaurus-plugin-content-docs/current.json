@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Current",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.使用场景": {
+    "message": "Use Cases",
+    "description": "The label for category '使用场景' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Use Cases": {
+    "message": "Use Cases",
+    "description": "The label for category 'Use Cases' in sidebar 'tutorialSidebar'"
+  }
+}

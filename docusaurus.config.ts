@@ -30,7 +30,17 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
+    locales: ['zh-Hans', 'en', 'ja', 'id', 'es', 'pt', 'de', 'fr'],
+    localeConfigs: {
+      'zh-Hans': { label: '中文', htmlLang: 'zh-Hans' },
+      en: { label: 'English', htmlLang: 'en' },
+      ja: { label: '日本語', htmlLang: 'ja' },
+      id: { label: 'Bahasa Indonesia', htmlLang: 'id' },
+      es: { label: 'Español', htmlLang: 'es' },
+      pt: { label: 'Português', htmlLang: 'pt' },
+      de: { label: 'Deutsch', htmlLang: 'de' },
+      fr: { label: 'Français', htmlLang: 'fr' },
+    },
   },
 
   presets: [
@@ -70,6 +80,10 @@ const config: Config = {
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: '使用文档',
+        },
+        {
+          type: 'localeDropdown',
+          position: 'right',
         },
         {
           type: 'custom-contact',

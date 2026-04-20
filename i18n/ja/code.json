@@ -1,0 +1,611 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "エラーが発生しました",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "先頭へ戻る",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "ブログ記事一覧のナビゲーション",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "新しい記事",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "過去の記事",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.archive.title": {
+    "message": "アーカイブ",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "アーカイブ",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "ブログ記事のナビゲーション",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "新しい記事",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "過去の記事",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "全てのタグを見る",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "システムモード",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "ライトモード",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "ダークモード",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "ダークモードを切り替える(現在は{mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "パンくずリストのナビゲーション",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "ドキュメントページ",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "前へ",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "次へ",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "{count}記事",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "「{tagName}」タグのついた{nDocsTagged}",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "バージョン: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "これはリリース前のバージョン{versionLabel}の{siteTitle}のドキュメントです。",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "これはバージョン{versionLabel}の{siteTitle}のドキュメントで現在はメンテナンスされていません",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "最新のドキュメントは{latestVersionLink} ({versionLabel}) を見てください",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "最新バージョン",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "このページを編集",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "{heading} への直接リンク",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": "{date}に",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": "{user}が",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "{atDate}{byUser}最終更新",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "ページが見つかりません",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "他のバージョン",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "タグ:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "閉じる",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "注意",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "危険",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "備考",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "注記",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "ヒント",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "警告",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "最近のブログ記事のナビゲーション",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "'{label}'の目次を開く",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "'{label}'の目次を隠す",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NotFound.p1": {
+    "message": "お探しのページが見つかりませんでした",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "このページにリンクしているサイトの所有者にリンクが壊れていることを伝えてください",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "ナビゲーション",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "このページの見出し",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "他の言語",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "約{readingTime}分",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMore": {
+    "message": "もっと見る",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "{title}についてもっと見る",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "コピー",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "コピーしました",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "クリップボードにコードをコピー",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "折り返し",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "ホームページ",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "サイドバーを隠す",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "サイドバーを隠す",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "ドキュメントのサイドバー",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "ナビゲーションバーを閉じる",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "ナビゲーションバーを開く",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← メインメニューに戻る",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "サイドバーを開く",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "サイドバーを開く",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "{count}件",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "「{tagName}」タグの記事が{nPosts}件あります",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "著者一覧",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "すべての著者を見る",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "この著者による投稿はまだありません。",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "非公開のページ",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "このページは非公開です。 検索対象外となり、このページのリンクに直接アクセスできるユーザーのみに公開されます。",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "下書きのページ",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "このページは下書きです。開発環境でのみ表示され、本番環境のビルドには含まれません。",
+    "description": "The draft content banner message"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "{count}項目",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "もう一度試してください",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "メインコンテンツまでスキップ",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "タグ",
+    "description": "The title of the tag list page"
+  },
+  "homepage.hero.badge": {
+    "message": "AIリアルタイム同時通訳"
+  },
+  "homepage.hero.title.prefix": {
+    "message": "中国語で話す、"
+  },
+  "homepage.hero.title.highlight": {
+    "message": "世界に届く"
+  },
+  "homepage.hero.subtitle": {
+    "message": "1.3秒超低遅延 · デュアルチャンネル出力 · GPU不要 · リアルタイム音声クローン"
+  },
+  "homepage.hero.subtitle2": {
+    "message": "言語の壁をなくす、ライブ配信とビジネスのために"
+  },
+  "homepage.stat.latency": {
+    "message": "初音遅延"
+  },
+  "homepage.stat.languages": {
+    "message": "対応言語"
+  },
+  "homepage.stat.uptime": {
+    "message": "常時稼働"
+  },
+  "homepage.hero.cta.start": {
+    "message": "今すぐ始める →"
+  },
+  "homepage.hero.cta.scenarios": {
+    "message": "ユースケースを見る"
+  },
+  "homepage.scroll": {
+    "message": "スクロール"
+  },
+  "platform.tencentMeeting": {
+    "message": "テンセント会議"
+  },
+  "platform.streamingCompanion": {
+    "message": "配信コンパニオン"
+  },
+  "platform.feishu": {
+    "message": "Feishu会議"
+  },
+  "homepage.metrics.tagline": {
+    "message": "ワークフローにシームレスに統合"
+  },
+  "homepage.scenario.content.title": {
+    "message": "コンテンツ輸出"
+  },
+  "homepage.scenario.content.desc": {
+    "message": "中国語コンテンツをリアルタイム翻訳、AI自動吹き替え出力、10以上の言語に対応。デュアルチャンネル同時出力でトレンドを逃さない。"
+  },
+  "homepage.scenario.content.tag1": {
+    "message": "低コスト"
+  },
+  "homepage.scenario.content.tag2": {
+    "message": "高効率"
+  },
+  "homepage.scenario.content.tag3": {
+    "message": "多言語"
+  },
+  "homepage.scenario.meeting.title": {
+    "message": "国際会議"
+  },
+  "homepage.scenario.meeting.desc": {
+    "message": "デュアルチャンネルリアルタイム双方向翻訳：チャンネルA 中→英、チャンネルB 英→中。Zoom / テンセント会議 / OBSに対応。"
+  },
+  "homepage.scenario.meeting.tag1": {
+    "message": "双方向翻訳"
+  },
+  "homepage.scenario.meeting.tag2": {
+    "message": "マルチプラットフォーム"
+  },
+  "homepage.scenario.meeting.tag3": {
+    "message": "プロ仕様"
+  },
+  "homepage.scenario.live.title": {
+    "message": "越境ライブ配信"
+  },
+  "homepage.scenario.live.desc": {
+    "message": "中国語で話すと視聴者はリアルタイムで母国語を聞けます。初音遅延わずか1.3秒。音声クローンで自分の声で外国語を話せます。"
+  },
+  "homepage.scenario.live.tag1": {
+    "message": "低遅延"
+  },
+  "homepage.scenario.live.tag2": {
+    "message": "音声クローン"
+  },
+  "homepage.scenario.live.tag3": {
+    "message": "7×24稼働"
+  },
+  "homepage.scenarios.label": {
+    "message": "ユースケース"
+  },
+  "homepage.scenarios.title": {
+    "message": "1つのツール、3つのシナリオ"
+  },
+  "homepage.scenarios.subtitle": {
+    "message": "コンテンツ制作、ライブ配信、ビジネス会議など、語橋がプロのリアルタイム翻訳を提供します"
+  },
+  "homepage.feature.speed.title": {
+    "message": "超高速レスポンス"
+  },
+  "homepage.feature.speed.desc": {
+    "message": "初音遅延わずか1.3秒、人間の通訳者レベルに近い"
+  },
+  "homepage.feature.voice.title": {
+    "message": "音声クローン"
+  },
+  "homepage.feature.voice.desc": {
+    "message": "リアルタイム音声クローンで自分の声で外国語を話す"
+  },
+  "homepage.feature.dual.title": {
+    "message": "デュアルチャンネル出力"
+  },
+  "homepage.feature.dual.desc": {
+    "message": "2つの独立した翻訳ストリームを同時に干渉なく実行"
+  },
+  "homepage.feature.cost.title": {
+    "message": "超低コスト"
+  },
+  "homepage.feature.cost.desc": {
+    "message": "公式API連携、従量課金、新規ユーザーに無料クレジット"
+  },
+  "homepage.feature.nogpu.title": {
+    "message": "GPU不要"
+  },
+  "homepage.feature.nogpu.desc": {
+    "message": "CPU処理のみ、普通のパソコンで動作"
+  },
+  "homepage.feature.multilang.title": {
+    "message": "多言語対応"
+  },
+  "homepage.feature.multilang.desc": {
+    "message": "中国語、英語、日本語、フランス語、ドイツ語、スペイン語など10以上の言語に対応"
+  },
+  "homepage.feature.integrate.title": {
+    "message": "柔軟な統合"
+  },
+  "homepage.feature.integrate.desc": {
+    "message": "OBS、Zoom、テンセント会議などの主要プラットフォームに対応"
+  },
+  "homepage.feature.stable.title": {
+    "message": "安定・信頼性"
+  },
+  "homepage.feature.stable.desc": {
+    "message": "7×24時間安定稼働、99.9%の可用性"
+  },
+  "homepage.features.label": {
+    "message": "主な特長"
+  },
+  "homepage.features.title": {
+    "message": "語橋を選ぶ理由"
+  },
+  "homepage.features.subtitle": {
+    "message": "プロ仕様のリアルタイム翻訳、シンプルに使える"
+  },
+  "homepage.step1.title": {
+    "message": "ダウンロード＆インストール"
+  },
+  "homepage.step1.desc": {
+    "message": "ワンクリックインストール、環境設定不要"
+  },
+  "homepage.step2.title": {
+    "message": "オーディオ設定"
+  },
+  "homepage.step2.desc": {
+    "message": "仮想オーディオデバイスを設定"
+  },
+  "homepage.step3.title": {
+    "message": "言語選択"
+  },
+  "homepage.step3.desc": {
+    "message": "ソース言語とターゲット言語を選択"
+  },
+  "homepage.step4.title": {
+    "message": "使用開始"
+  },
+  "homepage.step4.desc": {
+    "message": "リアルタイム翻訳、即時有効"
+  },
+  "homepage.howItWorks.label": {
+    "message": "使い方"
+  },
+  "homepage.howItWorks.title": {
+    "message": "4ステップで始める"
+  },
+  "homepage.howItWorks.subtitle": {
+    "message": "簡単設定でプロ仕様のリアルタイム翻訳サービスを利用"
+  },
+  "homepage.pricing.monthly.label": {
+    "message": "月額"
+  },
+  "homepage.pricing.monthly.unit": {
+    "message": "/ 月"
+  },
+  "homepage.pricing.monthly.period": {
+    "message": "月払い"
+  },
+  "homepage.pricing.quarterly.label": {
+    "message": "四半期"
+  },
+  "homepage.pricing.quarterly.unit": {
+    "message": "/ 四半期"
+  },
+  "homepage.pricing.quarterly.period": {
+    "message": "月額わずか¥76"
+  },
+  "homepage.pricing.quarterly.save": {
+    "message": "¥36お得"
+  },
+  "homepage.pricing.yearly.label": {
+    "message": "年額"
+  },
+  "homepage.pricing.yearly.unit": {
+    "message": "/ 年"
+  },
+  "homepage.pricing.yearly.period": {
+    "message": "月額わずか¥57"
+  },
+  "homepage.pricing.yearly.save": {
+    "message": "¥368お得"
+  },
+  "homepage.pricing.feature1": {
+    "message": "全コア機能"
+  },
+  "homepage.pricing.feature2": {
+    "message": "デュアルチャンネルリアルタイム翻訳"
+  },
+  "homepage.pricing.feature3": {
+    "message": "10以上の言語対応"
+  },
+  "homepage.pricing.feature4": {
+    "message": "音声クローン"
+  },
+  "homepage.pricing.feature5": {
+    "message": "7×24オンラインサービス"
+  },
+  "homepage.pricing.label": {
+    "message": "料金"
+  },
+  "homepage.pricing.title": {
+    "message": "シンプルで透明な料金"
+  },
+  "homepage.pricing.subtitle": {
+    "message": "期間固定、使い放題、長期ほどお得"
+  },
+  "homepage.pricing.buyNow": {
+    "message": "今すぐ購入"
+  },
+  "homepage.cta.title": {
+    "message": "言語の壁を打ち破る準備はできましたか？"
+  },
+  "homepage.cta.subtitle": {
+    "message": "今すぐ語橋を使って世界中の視聴者にリーチしましょう"
+  },
+  "homepage.cta.start": {
+    "message": "今すぐ始める"
+  },
+  "homepage.cta.contact": {
+    "message": "お問い合わせ"
+  },
+  "homepage.cta.faq": {
+    "message": "よくある質問"
+  },
+  "homepage.title": {
+    "message": "中国語で話す、世界に届く"
+  },
+  "homepage.description": {
+    "message": "語橋同時通訳 - 1.3秒超低遅延、デュアルチャンネル出力、リアルタイム音声クローン"
+  },
+  "navbar.contact.button": {
+    "message": "購入のお問い合わせ"
+  },
+  "contact.modal.title": {
+    "message": "購入のお問い合わせ"
+  },
+  "contact.modal.subtitle": {
+    "message": "QRコードをスキャンしてWeChatを追加し、料金をご確認ください"
+  },
+  "contact.modal.tip": {
+    "message": "WeChatでスキャン · 友達追加してお問い合わせ"
+  }
+}

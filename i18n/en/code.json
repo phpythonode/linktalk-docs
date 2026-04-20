@@ -1,0 +1,611 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "This page crashed.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Blog list page navigation",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Newer entries",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Older entries",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blog post page navigation",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Newer post",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Older post",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "View all tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "light mode",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "dark mode",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Switch between dark and light mode (currently {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Docs pages",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Previous",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Next",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "One doc tagged|{count} docs tagged",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} with \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Version: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "latest version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " on {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " by {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Last updated{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "Page Not Found",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versions",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.admonition.caution": {
+    "message": "caution",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "danger",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "note",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NotFound.p1": {
+    "message": "We could not find what you were looking for.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "On this page",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Read more",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Read more about {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copy",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copied",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copy code to clipboard",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Home page",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Toggle word wrap",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Toggle navigation bar",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "One post|{count} posts",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagged with \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View all authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 item|{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Try again",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Skip to main content",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  },
+  "homepage.hero.badge": {
+    "message": "AI-Powered Real-Time Simultaneous Interpretation"
+  },
+  "homepage.hero.title.prefix": {
+    "message": "Speak Chinese, "
+  },
+  "homepage.hero.title.highlight": {
+    "message": "Heard Worldwide"
+  },
+  "homepage.hero.subtitle": {
+    "message": "1.3s Ultra-Low Latency · Dual-Channel Output · No GPU Required · Real-Time Voice Cloning"
+  },
+  "homepage.hero.subtitle2": {
+    "message": "Break the language barrier in live streaming and business"
+  },
+  "homepage.stat.latency": {
+    "message": "First-Audio Latency"
+  },
+  "homepage.stat.languages": {
+    "message": "Languages"
+  },
+  "homepage.stat.uptime": {
+    "message": "Always Online"
+  },
+  "homepage.hero.cta.start": {
+    "message": "Get Started →"
+  },
+  "homepage.hero.cta.scenarios": {
+    "message": "View Use Cases"
+  },
+  "homepage.scroll": {
+    "message": "Scroll Down"
+  },
+  "platform.tencentMeeting": {
+    "message": "Tencent Meeting"
+  },
+  "platform.streamingCompanion": {
+    "message": "Streaming Companion"
+  },
+  "platform.feishu": {
+    "message": "Feishu Meeting"
+  },
+  "homepage.metrics.tagline": {
+    "message": "Seamlessly integrates with your workflow"
+  },
+  "homepage.scenario.content.title": {
+    "message": "Content Export"
+  },
+  "homepage.scenario.content.desc": {
+    "message": "Real-time translation of Chinese content with AI dubbing output, supporting 10+ languages. Dual-channel simultaneous output — never miss a trending moment."
+  },
+  "homepage.scenario.content.tag1": {
+    "message": "Low Cost"
+  },
+  "homepage.scenario.content.tag2": {
+    "message": "High Efficiency"
+  },
+  "homepage.scenario.content.tag3": {
+    "message": "Multi-Language"
+  },
+  "homepage.scenario.meeting.title": {
+    "message": "International Meetings"
+  },
+  "homepage.scenario.meeting.desc": {
+    "message": "Dual-channel real-time bidirectional translation: Channel A Chinese→English, Channel B English→Chinese, running simultaneously without interference. Works with Zoom / Tencent Meeting / OBS."
+  },
+  "homepage.scenario.meeting.tag1": {
+    "message": "Bidirectional"
+  },
+  "homepage.scenario.meeting.tag2": {
+    "message": "Multi-Platform"
+  },
+  "homepage.scenario.meeting.tag3": {
+    "message": "Professional"
+  },
+  "homepage.scenario.live.title": {
+    "message": "Cross-Border Live Streaming"
+  },
+  "homepage.scenario.live.desc": {
+    "message": "You speak Chinese, your audience hears their native language in real time — first-audio latency just 1.3 seconds. Voice cloning lets you speak foreign languages in your own voice."
+  },
+  "homepage.scenario.live.tag1": {
+    "message": "Low Latency"
+  },
+  "homepage.scenario.live.tag2": {
+    "message": "Voice Cloning"
+  },
+  "homepage.scenario.live.tag3": {
+    "message": "7×24 Online"
+  },
+  "homepage.scenarios.label": {
+    "message": "Use Cases"
+  },
+  "homepage.scenarios.title": {
+    "message": "One Tool, Three Scenarios"
+  },
+  "homepage.scenarios.subtitle": {
+    "message": "Whether content creation, live commerce, or business meetings — LinkTalk delivers professional real-time translation"
+  },
+  "homepage.feature.speed.title": {
+    "message": "Ultra-Fast Response"
+  },
+  "homepage.feature.speed.desc": {
+    "message": "First-audio latency just 1.3 seconds, close to human interpreter level"
+  },
+  "homepage.feature.voice.title": {
+    "message": "Voice Cloning"
+  },
+  "homepage.feature.voice.desc": {
+    "message": "Real-time voice cloning — speak foreign languages in your own voice"
+  },
+  "homepage.feature.dual.title": {
+    "message": "Dual-Channel Output"
+  },
+  "homepage.feature.dual.desc": {
+    "message": "Two independent translation streams running simultaneously without interference"
+  },
+  "homepage.feature.cost.title": {
+    "message": "Ultra-Low Cost"
+  },
+  "homepage.feature.cost.desc": {
+    "message": "Official API integration, pay per use, free credits for new users"
+  },
+  "homepage.feature.nogpu.title": {
+    "message": "No GPU Required"
+  },
+  "homepage.feature.nogpu.desc": {
+    "message": "Pure CPU operation — runs on any ordinary computer"
+  },
+  "homepage.feature.multilang.title": {
+    "message": "Multi-Language Support"
+  },
+  "homepage.feature.multilang.desc": {
+    "message": "Supports Chinese, English, Japanese, Korean, French, German, Spanish and 10+ more"
+  },
+  "homepage.feature.integrate.title": {
+    "message": "Flexible Integration"
+  },
+  "homepage.feature.integrate.desc": {
+    "message": "Works with OBS, Zoom, Tencent Meeting and other major platforms"
+  },
+  "homepage.feature.stable.title": {
+    "message": "Stable & Reliable"
+  },
+  "homepage.feature.stable.desc": {
+    "message": "7×24 stable operation, 99.9% uptime"
+  },
+  "homepage.features.label": {
+    "message": "Core Advantages"
+  },
+  "homepage.features.title": {
+    "message": "Why Choose LinkTalk"
+  },
+  "homepage.features.subtitle": {
+    "message": "Professional-grade real-time translation, simple to use"
+  },
+  "homepage.step1.title": {
+    "message": "Download & Install"
+  },
+  "homepage.step1.desc": {
+    "message": "One-click install, no environment setup needed"
+  },
+  "homepage.step2.title": {
+    "message": "Configure Audio"
+  },
+  "homepage.step2.desc": {
+    "message": "Set up virtual audio devices"
+  },
+  "homepage.step3.title": {
+    "message": "Select Languages"
+  },
+  "homepage.step3.desc": {
+    "message": "Choose source and target languages"
+  },
+  "homepage.step4.title": {
+    "message": "Start Using"
+  },
+  "homepage.step4.desc": {
+    "message": "Real-time translation, effective immediately"
+  },
+  "homepage.howItWorks.label": {
+    "message": "How It Works"
+  },
+  "homepage.howItWorks.title": {
+    "message": "Four Steps to Get Started"
+  },
+  "homepage.howItWorks.subtitle": {
+    "message": "Simple setup, professional real-time translation service"
+  },
+  "homepage.pricing.monthly.label": {
+    "message": "Monthly"
+  },
+  "homepage.pricing.monthly.unit": {
+    "message": "/ mo"
+  },
+  "homepage.pricing.monthly.period": {
+    "message": "Billed monthly"
+  },
+  "homepage.pricing.quarterly.label": {
+    "message": "Quarterly"
+  },
+  "homepage.pricing.quarterly.unit": {
+    "message": "/ qtr"
+  },
+  "homepage.pricing.quarterly.period": {
+    "message": "Only ¥76/mo"
+  },
+  "homepage.pricing.quarterly.save": {
+    "message": "Save ¥36"
+  },
+  "homepage.pricing.yearly.label": {
+    "message": "Annual"
+  },
+  "homepage.pricing.yearly.unit": {
+    "message": "/ yr"
+  },
+  "homepage.pricing.yearly.period": {
+    "message": "Only ¥57/mo"
+  },
+  "homepage.pricing.yearly.save": {
+    "message": "Save ¥368"
+  },
+  "homepage.pricing.feature1": {
+    "message": "All core features"
+  },
+  "homepage.pricing.feature2": {
+    "message": "Dual-channel real-time translation"
+  },
+  "homepage.pricing.feature3": {
+    "message": "10+ language support"
+  },
+  "homepage.pricing.feature4": {
+    "message": "Voice cloning"
+  },
+  "homepage.pricing.feature5": {
+    "message": "7×24 online service"
+  },
+  "homepage.pricing.label": {
+    "message": "Pricing"
+  },
+  "homepage.pricing.title": {
+    "message": "Simple, Transparent Pricing"
+  },
+  "homepage.pricing.subtitle": {
+    "message": "Fixed duration, unlimited usage — better value the longer you go"
+  },
+  "homepage.pricing.buyNow": {
+    "message": "Buy Now"
+  },
+  "homepage.cta.title": {
+    "message": "Ready to Break the Language Barrier?"
+  },
+  "homepage.cta.subtitle": {
+    "message": "Start using LinkTalk now and reach a global audience"
+  },
+  "homepage.cta.start": {
+    "message": "Get Started"
+  },
+  "homepage.cta.contact": {
+    "message": "Contact to Buy"
+  },
+  "homepage.cta.faq": {
+    "message": "FAQ"
+  },
+  "homepage.title": {
+    "message": "Speak Chinese, Heard Worldwide"
+  },
+  "homepage.description": {
+    "message": "LinkTalk Simultaneous Interpretation - 1.3s ultra-low latency, dual-channel output, real-time voice cloning"
+  },
+  "navbar.contact.button": {
+    "message": "Contact to Buy"
+  },
+  "contact.modal.title": {
+    "message": "Contact to Buy"
+  },
+  "contact.modal.subtitle": {
+    "message": "Scan the QR code to add WeChat and get pricing info"
+  },
+  "contact.modal.tip": {
+    "message": "Scan with WeChat · Add as friend to inquire"
+  }
+}

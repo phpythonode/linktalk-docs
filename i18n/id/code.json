@@ -1,0 +1,611 @@
+{
+  "theme.ErrorPageContent.title": {
+    "message": "Terjadi kesalahan.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Gulir kembali ke atas",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Arsip",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Arsip",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Navigasi entri blog",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Entri lebih baru",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Entri lebih lama",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Navigasi halaman pos blog",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Pos lebih baru",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Pos lebih lama",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Lihat Semua Tag",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel.mode.system": {
+    "message": "system mode",
+    "description": "The name for the system color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "modus terang",
+    "description": "The name for the light color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "modus gelap",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Ubah antara modus gelap dan modus terang (saat ini {mode})",
+    "description": "The ARIA label for the color mode toggle"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Runut navigasi",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Halaman dokumentasi",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Sebelum",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Berikut",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Satu dokumentasi memiliki tag|{count} dokumentasi memiliki tag",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} dengan \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Versi: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Ini adalah dokumentasi yang belum dirilis untuk {siteTitle} {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Ini adalah dokumentasi untuk {siteTitle} {versionLabel}, yang tidak lagi aktif dikelola.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Untuk dokumentasi terbaru, lihat {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "versi terbaru",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Sunting halaman ini",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Taut langsung ke {heading}",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " pada {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " oleh {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Diperbaharui{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.NotFound.title": {
+    "message": "Halaman Tak Ditemukan",
+    "description": "The title of the 404 page"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versi",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tag:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.admonition.caution": {
+    "message": "waspada",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.admonition.danger": {
+    "message": "bahaya",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "info",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.note": {
+    "message": "catatan",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.warning": {
+    "message": "peringatan",
+    "description": "The default label used for the Warning admonition (:::warning)"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Tutup",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Navigasi pos blog terbaru",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.DocSidebarItem.expandCategoryAriaLabel": {
+    "message": "Perluas kategori bilah sisi '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
+  },
+  "theme.DocSidebarItem.collapseCategoryAriaLabel": {
+    "message": "Ciutkan kategori bilah sisi '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.NotFound.p1": {
+    "message": "Kami tak dapat menemukan yang anda cari.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Silakan hubungi pemilik situs yang mengarahkan anda ke URL asli dan beri tahu mereka bahwa tautan mereka salah.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.NavBar.navAriaLabel": {
+    "message": "Utama",
+    "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Bahasa",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Pada halaman ini",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Baca Selengkapnya",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Baca selengkapnya mengenai {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Satu menit membaca|{readingTime} menit membaca",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Salin",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Disalin",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Salin kode ke papan klip",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Alihkan pembungkus kata",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Halaman utama",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Ciutkan bilah sisi",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Ciutkan bilah sisi",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Bilah sisi dokumentasi",
+    "description": "The ARIA label for the sidebar navigation"
+  },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Tutup bilah sisi",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Kembali ke menu utama",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Alihkan bilah sisi",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
+    "message": "Expand the dropdown",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
+  },
+  "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
+    "message": "Collapse the dropdown",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Perluas bilah sisi",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Perluas bilah sisi",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Satu pos|{count} pos",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} memiliki tag \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.blog.author.pageTitle": {
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
+  },
+  "theme.blog.authorsList.pageTitle": {
+    "message": "Authors",
+    "description": "The title of the authors page"
+  },
+  "theme.blog.authorsList.viewAll": {
+    "message": "View All Authors",
+    "description": "The label of the link targeting the blog authors page"
+  },
+  "theme.blog.author.noPosts": {
+    "message": "This author has not written any posts yet.",
+    "description": "The text for authors with 0 blog post"
+  },
+  "theme.contentVisibility.unlistedBanner.title": {
+    "message": "Halaman tak terdaftar",
+    "description": "The unlisted content banner title"
+  },
+  "theme.contentVisibility.unlistedBanner.message": {
+    "message": "Halaman ini tidak terdaftar. Mesin pencari tidak akan mengindeksnya, dan hanya pengguna yang memiliki tautan langsung yang dapat mengaksesnya.",
+    "description": "The unlisted content banner message"
+  },
+  "theme.contentVisibility.draftBanner.title": {
+    "message": "Draft page",
+    "description": "The draft content banner title"
+  },
+  "theme.contentVisibility.draftBanner.message": {
+    "message": "This page is a draft. It will only be visible in dev and be excluded from the production build.",
+    "description": "The draft content banner message"
+  },
+  "theme.docs.DocCard.categoryDescription.plurals": {
+    "message": "1 butir|{count} butir",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Coba kembali",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Lewati ke konten utama",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tag",
+    "description": "The title of the tag list page"
+  },
+  "homepage.hero.badge": {
+    "message": "Interpretasi Simultan Real-Time Berbasis AI"
+  },
+  "homepage.hero.title.prefix": {
+    "message": "Bicara Mandarin, "
+  },
+  "homepage.hero.title.highlight": {
+    "message": "Didengar Dunia"
+  },
+  "homepage.hero.subtitle": {
+    "message": "Latensi 1,3 Detik · Output Dual-Channel · Tanpa GPU · Kloning Suara Real-Time"
+  },
+  "homepage.hero.subtitle2": {
+    "message": "Hapus hambatan bahasa dalam siaran langsung dan bisnis"
+  },
+  "homepage.stat.latency": {
+    "message": "Latensi Suara Pertama"
+  },
+  "homepage.stat.languages": {
+    "message": "Bahasa"
+  },
+  "homepage.stat.uptime": {
+    "message": "Selalu Online"
+  },
+  "homepage.hero.cta.start": {
+    "message": "Mulai Sekarang →"
+  },
+  "homepage.hero.cta.scenarios": {
+    "message": "Lihat Kasus Penggunaan"
+  },
+  "homepage.scroll": {
+    "message": "Gulir ke Bawah"
+  },
+  "platform.tencentMeeting": {
+    "message": "Tencent Meeting"
+  },
+  "platform.streamingCompanion": {
+    "message": "Streaming Companion"
+  },
+  "platform.feishu": {
+    "message": "Feishu Meeting"
+  },
+  "homepage.metrics.tagline": {
+    "message": "Terintegrasi mulus dengan alur kerja Anda"
+  },
+  "homepage.scenario.content.title": {
+    "message": "Ekspor Konten"
+  },
+  "homepage.scenario.content.desc": {
+    "message": "Terjemahan real-time konten Mandarin dengan dubbing AI otomatis, mendukung 10+ bahasa. Output dual-channel simultan, jangan lewatkan tren."
+  },
+  "homepage.scenario.content.tag1": {
+    "message": "Biaya Rendah"
+  },
+  "homepage.scenario.content.tag2": {
+    "message": "Efisiensi Tinggi"
+  },
+  "homepage.scenario.content.tag3": {
+    "message": "Multi-Bahasa"
+  },
+  "homepage.scenario.meeting.title": {
+    "message": "Rapat Internasional"
+  },
+  "homepage.scenario.meeting.desc": {
+    "message": "Terjemahan dua arah real-time: Channel A Mandarin→Inggris, Channel B Inggris→Mandarin, berjalan bersamaan tanpa gangguan. Mendukung Zoom / Tencent Meeting / OBS."
+  },
+  "homepage.scenario.meeting.tag1": {
+    "message": "Dua Arah"
+  },
+  "homepage.scenario.meeting.tag2": {
+    "message": "Multi-Platform"
+  },
+  "homepage.scenario.meeting.tag3": {
+    "message": "Profesional"
+  },
+  "homepage.scenario.live.title": {
+    "message": "Siaran Langsung Lintas Batas"
+  },
+  "homepage.scenario.live.desc": {
+    "message": "Anda bicara Mandarin, penonton mendengar bahasa ibu mereka secara real-time. Latensi suara pertama hanya 1,3 detik. Kloning suara membuat Anda berbicara bahasa asing dengan suara sendiri."
+  },
+  "homepage.scenario.live.tag1": {
+    "message": "Latensi Rendah"
+  },
+  "homepage.scenario.live.tag2": {
+    "message": "Kloning Suara"
+  },
+  "homepage.scenario.live.tag3": {
+    "message": "7×24 Online"
+  },
+  "homepage.scenarios.label": {
+    "message": "Kasus Penggunaan"
+  },
+  "homepage.scenarios.title": {
+    "message": "Satu Alat, Tiga Skenario"
+  },
+  "homepage.scenarios.subtitle": {
+    "message": "Pembuatan konten, live commerce, atau rapat bisnis — LinkTalk memberikan terjemahan real-time profesional"
+  },
+  "homepage.feature.speed.title": {
+    "message": "Respons Ultra-Cepat"
+  },
+  "homepage.feature.speed.desc": {
+    "message": "Latensi suara pertama hanya 1,3 detik, mendekati level interpreter manusia"
+  },
+  "homepage.feature.voice.title": {
+    "message": "Kloning Suara"
+  },
+  "homepage.feature.voice.desc": {
+    "message": "Kloning suara real-time — bicara bahasa asing dengan suara Anda sendiri"
+  },
+  "homepage.feature.dual.title": {
+    "message": "Output Dual-Channel"
+  },
+  "homepage.feature.dual.desc": {
+    "message": "Dua aliran terjemahan independen berjalan bersamaan tanpa gangguan"
+  },
+  "homepage.feature.cost.title": {
+    "message": "Biaya Ultra-Rendah"
+  },
+  "homepage.feature.cost.desc": {
+    "message": "Integrasi API resmi, bayar sesuai penggunaan, kredit gratis untuk pengguna baru"
+  },
+  "homepage.feature.nogpu.title": {
+    "message": "Tanpa GPU"
+  },
+  "homepage.feature.nogpu.desc": {
+    "message": "Operasi CPU murni — berjalan di komputer biasa mana pun"
+  },
+  "homepage.feature.multilang.title": {
+    "message": "Dukungan Multi-Bahasa"
+  },
+  "homepage.feature.multilang.desc": {
+    "message": "Mendukung Mandarin, Inggris, Jepang, Prancis, Jerman, Spanyol dan 10+ bahasa lainnya"
+  },
+  "homepage.feature.integrate.title": {
+    "message": "Integrasi Fleksibel"
+  },
+  "homepage.feature.integrate.desc": {
+    "message": "Bekerja dengan OBS, Zoom, Tencent Meeting dan platform utama lainnya"
+  },
+  "homepage.feature.stable.title": {
+    "message": "Stabil & Andal"
+  },
+  "homepage.feature.stable.desc": {
+    "message": "Operasi stabil 7×24 jam, uptime 99,9%"
+  },
+  "homepage.features.label": {
+    "message": "Keunggulan Utama"
+  },
+  "homepage.features.title": {
+    "message": "Mengapa Memilih LinkTalk"
+  },
+  "homepage.features.subtitle": {
+    "message": "Kemampuan terjemahan real-time tingkat profesional, mudah digunakan"
+  },
+  "homepage.step1.title": {
+    "message": "Unduh & Instal"
+  },
+  "homepage.step1.desc": {
+    "message": "Instalasi satu klik, tidak perlu pengaturan lingkungan"
+  },
+  "homepage.step2.title": {
+    "message": "Konfigurasi Audio"
+  },
+  "homepage.step2.desc": {
+    "message": "Siapkan perangkat audio virtual"
+  },
+  "homepage.step3.title": {
+    "message": "Pilih Bahasa"
+  },
+  "homepage.step3.desc": {
+    "message": "Pilih bahasa sumber dan target"
+  },
+  "homepage.step4.title": {
+    "message": "Mulai Gunakan"
+  },
+  "homepage.step4.desc": {
+    "message": "Terjemahan real-time, langsung efektif"
+  },
+  "homepage.howItWorks.label": {
+    "message": "Cara Kerja"
+  },
+  "homepage.howItWorks.title": {
+    "message": "Empat Langkah untuk Memulai"
+  },
+  "homepage.howItWorks.subtitle": {
+    "message": "Pengaturan sederhana, layanan terjemahan real-time profesional"
+  },
+  "homepage.pricing.monthly.label": {
+    "message": "Bulanan"
+  },
+  "homepage.pricing.monthly.unit": {
+    "message": "/ bln"
+  },
+  "homepage.pricing.monthly.period": {
+    "message": "Tagihan bulanan"
+  },
+  "homepage.pricing.quarterly.label": {
+    "message": "Triwulanan"
+  },
+  "homepage.pricing.quarterly.unit": {
+    "message": "/ triwulan"
+  },
+  "homepage.pricing.quarterly.period": {
+    "message": "Hanya ¥76/bln"
+  },
+  "homepage.pricing.quarterly.save": {
+    "message": "Hemat ¥36"
+  },
+  "homepage.pricing.yearly.label": {
+    "message": "Tahunan"
+  },
+  "homepage.pricing.yearly.unit": {
+    "message": "/ thn"
+  },
+  "homepage.pricing.yearly.period": {
+    "message": "Hanya ¥57/bln"
+  },
+  "homepage.pricing.yearly.save": {
+    "message": "Hemat ¥368"
+  },
+  "homepage.pricing.feature1": {
+    "message": "Semua fitur inti"
+  },
+  "homepage.pricing.feature2": {
+    "message": "Terjemahan real-time dual-channel"
+  },
+  "homepage.pricing.feature3": {
+    "message": "Dukungan 10+ bahasa"
+  },
+  "homepage.pricing.feature4": {
+    "message": "Kloning suara"
+  },
+  "homepage.pricing.feature5": {
+    "message": "Layanan online 7×24"
+  },
+  "homepage.pricing.label": {
+    "message": "Harga"
+  },
+  "homepage.pricing.title": {
+    "message": "Harga Sederhana & Transparan"
+  },
+  "homepage.pricing.subtitle": {
+    "message": "Durasi tetap, penggunaan tak terbatas — semakin lama semakin hemat"
+  },
+  "homepage.pricing.buyNow": {
+    "message": "Beli Sekarang"
+  },
+  "homepage.cta.title": {
+    "message": "Siap Menghancurkan Hambatan Bahasa?"
+  },
+  "homepage.cta.subtitle": {
+    "message": "Mulai gunakan LinkTalk sekarang dan jangkau audiens global"
+  },
+  "homepage.cta.start": {
+    "message": "Mulai Sekarang"
+  },
+  "homepage.cta.contact": {
+    "message": "Hubungi untuk Membeli"
+  },
+  "homepage.cta.faq": {
+    "message": "FAQ"
+  },
+  "homepage.title": {
+    "message": "Bicara Mandarin, Didengar Dunia"
+  },
+  "homepage.description": {
+    "message": "LinkTalk Interpretasi Simultan - Latensi 1,3 detik, output dual-channel, kloning suara real-time"
+  },
+  "navbar.contact.button": {
+    "message": "Hubungi untuk Membeli"
+  },
+  "contact.modal.title": {
+    "message": "Hubungi untuk Membeli"
+  },
+  "contact.modal.subtitle": {
+    "message": "Pindai kode QR untuk menambahkan WeChat dan dapatkan informasi harga"
+  },
+  "contact.modal.tip": {
+    "message": "Pindai dengan WeChat · Tambahkan sebagai teman untuk bertanya"
+  }
+}
