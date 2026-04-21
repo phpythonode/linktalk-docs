@@ -401,6 +401,49 @@ function Pricing() {
   );
 }
 
+function Download() {
+  return (
+    <section className={clsx(styles.section, styles.sectionDark)}>
+      <div className="container">
+        <div className={styles.sectionCenter}>
+          <div className={styles.sectionLabel}>下载</div>
+          <Heading as="h2" className={styles.sectionTitle}>
+            下载语桥客户端
+          </Heading>
+          <p className={styles.sectionSubtitle}>
+            支持 Windows 和 macOS，当前版本 v1.0.0
+          </p>
+        </div>
+
+        <div className={styles.downloadGrid}>
+          <Link className={styles.downloadCard} to="/docs/download">
+            <div className={styles.downloadIcon}>🪟</div>
+            <div className={styles.downloadInfo}>
+              <div className={styles.downloadTitle}>Windows</div>
+              <div className={styles.downloadDesc}>x64 · .msi 安装包</div>
+            </div>
+            <div className={styles.downloadBtn}>下载</div>
+          </Link>
+
+          <Link className={styles.downloadCard} to="/docs/download">
+            <div className={styles.downloadIcon}>🍎</div>
+            <div className={styles.downloadInfo}>
+              <div className={styles.downloadTitle}>macOS</div>
+              <div className={styles.downloadDesc}>Apple Silicon · .dmg 安装包</div>
+            </div>
+            <div className={styles.downloadBtn}>下载</div>
+          </Link>
+        </div>
+
+        <p className={styles.downloadNote}>
+          📦 百度网盘下载 · 查看<Link to="/docs/download">安装说明</Link>
+        </p>
+      </div>
+    </section>
+  );
+}
+
+
 function CTA() {
   const [contactOpen, setContactOpen] = useState(false);
 
@@ -454,6 +497,7 @@ export default function Home(): ReactNode {
       <Features />
       <HowItWorks />
       <Pricing />
+      <Download />
       <CTA />
     </Layout>
   );
