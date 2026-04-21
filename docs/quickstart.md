@@ -12,8 +12,8 @@ sidebar_position: 2
 
 前往百度网盘获取安装包：
 
-- 链接：https://pan.baidu.com/s/1seiuTXee6hxpfr43FKYwGg?pwd=8888
-- 提取码：`8888`
+- 链接：https://pan.baidu.com/s/1YqSVe5xaDVu0equaof9pCw?pwd=f438
+- 提取码：`f438`
 
 ---
 
@@ -25,17 +25,26 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="windows" label="Windows" default>
 
-1. 解压到任意目录（建议非系统盘）
-2. 路径中**不要包含中文**
-3. 双击 `语桥同声传译.exe` 启动
+1. 下载 `LinkTalk_1.0.0_x64_en-US.msi`
+2. 双击运行，按提示完成安装
+3. 启动语桥，开始使用
 
   </TabItem>
   <TabItem value="mac" label="macOS（Apple 芯片）">
 
-1. 解压后将 `.app` 文件拖入「应用程序」文件夹
-2. 首次启动若提示「无法验证开发者」：
-   - 前往「系统设置 → 隐私与安全性」
-   - 找到语桥相关提示，点击「仍要打开」
+1. 下载 `LinkTalk_1.0.0_aarch64.dmg`
+2. 双击挂载，将 LinkTalk 拖入「应用程序」文件夹
+3. 打开终端，执行以下命令解除系统限制：
+
+```bash
+xattr -cr /Applications/Linktalk.app
+```
+
+4. 执行完成后即可正常启动
+
+:::tip
+如果提示「无法打开，因为无法验证开发者」，执行上方命令后重新打开即可。
+:::
 
   </TabItem>
 </Tabs>
